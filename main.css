@@ -21,6 +21,29 @@
     color: #FFFFFF;
   }
 }
+@media only screen and (min-width: 600px) {
+  .navbar {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button {
+    background-color: coral;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: #232229;
@@ -82,6 +105,26 @@
 
   ul {
     list-style-type: none;
+  }
+
+  .Tasks {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    color: white;
+  }
+
+  .text {
+    background-color: #2B2A33;
   }
 }
 @media only screen and (max-width: 600px) {

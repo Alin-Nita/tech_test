@@ -35,7 +35,7 @@
 
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:600px) {
   body {
     /* background-color: rgba(35, 34, 41, 1); */
     width: 100vw;
@@ -66,5 +66,16 @@
 
   ul {
     list-style-type: none;
+  }
+
+  .Tasks {
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
   }
 }
