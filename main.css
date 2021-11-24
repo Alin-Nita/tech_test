@@ -58,8 +58,9 @@ body {
 }
 
 .logo {
+  font-family: JOST;
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   color: #ffffff;
   padding: 5px, auto;
@@ -76,6 +77,16 @@ body {
   font-weight: bold;
 }
 
-main > h2 {
+#title {
   font-size: 2.5em;
+}
+
+.tasks {
+  margin-right: 10em;
+  font-size: 2em;
+}
+
+#text {
+  background-color: #6c6a7c;
+  color: #b5b1cc;
 }
