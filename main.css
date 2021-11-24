@@ -17,7 +17,7 @@ ul {
   list-style-type: none;
 }
 
-ul>li {
+ul > li {
   background-color: #2b2a33;
   width: 30em;
   height: 2em;
@@ -37,4 +37,45 @@ ul>li {
   align-content: space-between;
   justify-content: space-between;
   align-items: center;
+}
+
+body {
+  color: #ffffff;
+  background-color: #232229;
+  padding: 20px 20px;
+}
+
+.main {
+  font-family: JOST;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  height: 35em;
+  margin-top: 13em;
+}
+
+.logo {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 5px, auto;
+}
+
+.button > h2 {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main > h2 {
+  font-size: 2.5em;
 }
