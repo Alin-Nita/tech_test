@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tech test</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-  <div class="navbar">
+  <div class="navbar" style="display: flex;">
     <div class="logo">MyTodos</div>
     <div class="button">
       <button>Reset</button>
@@ -22,15 +22,16 @@
     <p>Let's enter the tasks we need to complete for this upcoming week.Just use the imput below to create a todo</p>
     <div class="insert_task">
       <input type="text" id="text" placeholder="Add your task here">
+      <label for="text"><img src="assets/plus.svg"></label>
     </div>
   </div>
 
   <div class="Tasks">
     <p>Tasks</p>
     <ul>
-      <li>Do the weekly grocery shop</li>
-      <li>Go to the gym</li>
-      <li>Be in bed by 22:30</li>
+      <li><input type="checkbox">Do the weekly grocery shop<img src="./assets/pen.svg"></li>
+      <li><input type="checkbox">Go to the gym<img src="./assets/pen.svg"></li>
+      <li><input type="checkbox">Be in bed by 22:30<img src="./assets/pen.svg"></li>
     </ul>
   </div>
 

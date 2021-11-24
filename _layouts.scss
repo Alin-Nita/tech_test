@@ -1,6 +1,7 @@
 @media only screen and (max-width:600px) {
+
   body {
-    /* background-color: rgba(35, 34, 41, 1); */
+    background-color: rgba(35, 34, 41, 1);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,20 +11,27 @@
     justify-content: space-between;
   }
 
-  ;
 
-  .navbar {
-    width: 600px !important;
+  .Tasks {
+    width: 100vw;
+    color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
     align-content: space-between;
-    justify-content: space-between;
-    align-items: center;
   }
 
+  ;
 
+  .main {
+    color: white;
+  }
 
+  ul {
+    list-style-type: none;
+  }
 
 }
 
@@ -40,8 +48,8 @@
   }
 
 
-
   .navbar {
+    color: ivory;
     width: 100vh;
     display: flex;
     flex-direction: row;
@@ -50,4 +58,13 @@
     justify-content: space-between;
   }
 
+  .main {
+    border: 2px solid black;
+    width: 20em;
+    height: 4em;
+  }
+
+  ul {
+    list-style-type: none;
+  }
 }
